@@ -41,12 +41,13 @@
     font-size: 35px;
     font-weight:bold ;
     color: #181818;
+    text-align: center;
   }
 
   .section-description{
     font-size: 18px;
     color: #757575;
-  }
+}
 
   /*shared atyle */
   .text-primary{
@@ -126,8 +127,13 @@ nav li a{
     font-weight: bold;
 }
 
-.banner-profile-pic{
-    width: 580px;
+.header{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: 1036px 518px;
+    background-position-x: right;
+    background-position-y: bottom;
+    
 }
 
 /* main */
@@ -180,7 +186,8 @@ main section{
 /* resume */
 
 .section-title{
-    text-align: left;
+    text-align: center;
+    
 }
 
 .resume-container{
