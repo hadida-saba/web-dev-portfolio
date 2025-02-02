@@ -13,8 +13,10 @@
     color: #474747;
   }
 
-  .text-center{
-    text-align: center;
+  .text-cen{
+  margin-top: 50px;
+  margin-left: 450px;
+  
   }
 
   .btn-primary{
@@ -63,7 +65,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -85,19 +87,7 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
 }
-/* header */
 
-.header-secondary-bg{
-    width: 1600px;
-    height: 837px;
-}
-
-
-.header{
-    background-image: url(../images/developer.png);
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-}
 
 
 /* banner */
